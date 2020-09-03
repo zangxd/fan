@@ -1,5 +1,5 @@
 {
-  "name": "fan",
+  "name": "fan-ui",
   "version": "0.0.0",
   "description": "mobile UI components built on react",
   "main": "lib/index.js",
