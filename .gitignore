@@ -1,0 +1,8 @@
+/es
+/lib
+/dist
+/node_modules
+*.bak
+/site
+yarn-error.log
+**/**/.DS_Store

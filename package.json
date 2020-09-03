@@ -1,0 +1,30 @@
+{
+  "name": "fan",
+  "version": "0.0.0",
+  "description": "mobile UI components built on react",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {},
+  "husky": {
+    "hooks": {}
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "yarn lint"
+    ]
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8"
+  }
+}
